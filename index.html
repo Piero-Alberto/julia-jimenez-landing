@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Julia Jimenez</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c25a0d8245.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+</head>
+<body>
+   <header>
+    <div class="wrapper">
+        <nav>
+            <img src="/images/Julia Jiménez.svg" alt="">
+            <ul id="sidemenu">
+                <li><a href="">Sobre mi</a></li>
+                <li><a href="">Trabajos</a></li>
+                <li><a href="">Contacto</a></li>
+
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+    </div>
+    <div class="contenedor-banner">
+      <img class="banner" src="/images/banner-julia.jpg" alt="">
+      <div class="texto-banner">
+        <h1>¡Bienvenido a mi Portafolio!</h1>
+        <p>Descubre mis últimos trabajos y proyectos creativos.</p>
+        <a href="#trabajos" class="boton-banner">Ver Trabajos</a>
+      </div>
+    </div>
+
+    </header>
+    <div class="sobre_mi">
+
+        <div class="sobre_mi_content">
+                <h1>Sobre Mi</h1>
+                <hr>
+                    <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Harum nobis saepe ratione eligendi distinctio accusamus
+                     dicta incidunt numquam consequatur atque ipsa iure,
+                     eius, vel molestias quae cupiditate iste, dolorem facere.</p>
+        </div>
+    </div>
+    <div class="trabajos">
+        <div class="trabajos_content">
+            <h1>Categorias</h1>
+            <hr>
+            <p class="subtitle">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                 Magni minima ipsum amet distinctio magnam cum nulla eum
+                  dignissimos et cumque enim.</p>
+        </div>
+
+        <div class="gallery">
+          <div class="image-container">
+              <img src="/images/noel.png" alt="">
+              <div class="overlay-text">NAVIDAD</div>
+          </div>
+          <div class="image-container">
+              <img src="/images/noel.png" alt="">
+              <div class="overlay-text">NIÑOS</div>
+          </div>
+          <div class="image-container">
+              <img src="/images/noel.png" alt="">
+              <div class="overlay-text">COCINA</div>
+          </div>
+          <div class="image-container">
+              <img src="/images/noel.png" alt="">
+              <div class="overlay-text">VIDRIO</div>
+          </div>
+      </div>
+    </div>
+    <div class="contacto">
+        <div class="contacto_content">
+            <h1>Contacto</h1>
+            <hr>
+            <p class="subtitle">Dejame un mensaje o sigueme en mi redes</p>
+        </div>
+        <form id="formulario" class="formulario" novalidate>
+            <div class="campo">
+              <label for="nombre">Nombre:</label>
+              <input type="text" id="nombre" name="nombre" placeholder="Introduce tu nombre">
+              <span class="error" id="error-nombre"></span>
+            </div>
+
+            <div class="campo">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" placeholder="Introduce tu email">
+              <span class="error" id="error-email"></span>
+            </div>
+
+            <div class="campo">
+              <label for="mensaje">Mensaje:</label>
+              <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje"></textarea>
+              <span class="error" id="error-mensaje"></span>
+            </div>
+
+            <button type="submit">Enviar</button>
+          </form>
+
+    </div>
+    <footer>
+
+            <div class="social">
+                <h3>Julia Jimélspinez</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                     <div class="redes">
+                      <a href="#"><img src="/images/icon-facebook.svg" alt="Facebook"></a>
+                      <a href="#"><img src="/images/icon-instagram.svg" alt="Instagram"></a>
+                      <a href="#"><img src="/images/icon-pinterest.svg" alt="Pinterest"></a>
+                  </div>
+            </div>
+            <div class="footer_menu">
+                <ul class="footer-menu">
+                    <li>
+                      <a href="#">Sobre mi</a>
+                      <ul class="submenu">
+                        <li><a href="#">Nosotros</a></li>
+
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">Contacto</a>
+                      <ul class="submenu">
+                        <li><a href="#">Submenú 1</a></li>
+                        <li><a href="#">Submenú 2</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">Trabajos</a>
+                      <ul class="submenu">
+                        <li><a href="#">Submenú 1</a></li>
+                        <li><a href="#">Submenú 2</a></li>
+                        <li><a href="#">Submenú 3</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+            </div>
+
+
+
+    </footer>
+    <div class="love">
+        <p>Made with <i class="fas fa-heart"></i> by <a href="https://www.linkedin.com/in/piero-elguedas-7b750753/">Piero Elguedas</a></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
