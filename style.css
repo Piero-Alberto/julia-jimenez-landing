@@ -43,7 +43,7 @@
 .boton-banner {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #f0ad4e; /* Un color de ejemplo */
+  background-color: #3058f6; /* Un color de ejemplo */
   color: white;
   text-decoration: none;
   border-radius: 5px;
@@ -51,7 +51,7 @@
 }
 
 .boton-banner:hover {
-  background-color: #e09514; /* Un color ligeramente más oscuro al pasar el ratón */
+  background-color: #4075fb; /* Un color ligeramente más oscuro al pasar el ratón */
 }
 
 hr {
