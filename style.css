@@ -83,14 +83,14 @@ nav ul li{
 }
 
 nav ul li a{
-    color: #5e4e44;
+    color: #ba8e72;
     text-decoration: none;
     font-size: 0.9rem;
     text-transform: uppercase;
     font-weight: 600;
 }
 nav ul li a:hover{
-    color: #f8c5a7;
+    color: #d8a88d;
 }
 
 nav .fa-solid{
