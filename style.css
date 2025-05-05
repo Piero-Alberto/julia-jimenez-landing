@@ -365,11 +365,29 @@ padding-bottom: 20px;
 }
 
 .redes a:hover img {
-    opacity: 1; /* Restaura la opacidad completa al hacer hover */
+    opacity: 1;
 }
 
 
+/*NAVIDAD*/
 
+.navidad-container{
+  margin-block: 40px;
+}
+
+.lista-categorias{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 960px;
+  margin:  0 auto;
+  justify-content: center;
+  gap: 20px;
+}
+
+.navidad-titulo{
+  text-align: center;
+  margin-block: 40px;
+}
 
 
 @media (max-width:800px) {
