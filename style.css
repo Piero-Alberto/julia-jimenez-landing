@@ -42,7 +42,7 @@
 
 .boton-banner {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 15px 30px;
   background-color: #3058f6; /* Un color de ejemplo */
   color: white;
   text-decoration: none;
@@ -64,7 +64,7 @@ hr {
   }
 
 .wrapper{
-    padding: 20px 60px;
+    padding: 40px 60px;
     background: #DFDFDF;
 }
 
@@ -201,80 +201,10 @@ padding-top:60px;
   opacity: 1; /* Show the text on hover */
 }
 
-.contacto{
-    padding-block: 90px;
-}
 
-.contacto p{
-    padding-block-end: 50px;
-}
 
-/* Estilos generales del formulario */
-.formulario {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color:#DFDFDF;
-    border-radius: 10px;
 
-    font-family: Arial, sans-serif;
 
-  }
-
-  /* Estilos para los campos y etiquetas */
-  .formulario label {
-    display: block;
-    margin-bottom: 8px;
-    font-weight: bold;
-    color: #625348;
-  }
-
-  .formulario input[type="text"],
-  .formulario input[type="email"],
-  .formulario textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-  }
-
-  .formulario input[type="text"]:focus,
-  .formulario input[type="email"]:focus,
-  .formulario textarea:focus {
-    border-color: #007BFF;
-    outline: none;
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
-  }
-
-  /* Estilos para el botón de envío */
-  .formulario button {
-    display: block;
-    width: 50%;
-    padding: 12px;
-    background-color: #616eff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 18px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-
-  }
-
-  .formulario button:hover {
-    background-color: #0056b3;
-  }
-
-  /* Estilos para los mensajes de error */
-  .error {
-    color: red;
-    font-size: 14px;
-    margin-top: -10px;
-    margin-bottom: 10px;
-    display: none; /* Oculto por defecto */
-  }
 
   footer{
     padding-block: 70px;
@@ -299,11 +229,12 @@ padding-top:60px;
       }
 
       .footer-menu > li > a {
-        color: #625348;
+        color: #a09389;
         text-decoration: none;
-        font-weight: bold;
         display: block;
-        margin-bottom: 10px; /* Espacio entre el menú y su submenú */
+        margin-bottom: 10px;
+        font-weight: 500;
+        font-size: 17px;
       }
 
       /* Submenú, siempre visible */
@@ -398,6 +329,15 @@ padding-bottom: 20px;
   font-weight: 300;
   font-size: 1.1rem;
 }
+
+.elemento-escalable {
+  transition: transform 0.3s ease-in-out; /* Transición suave para la propiedad transform */
+}
+
+.elemento-escalable.hovered {
+  transform: scale(1.05); /* Escala el elemento al 105% cuando tiene la clase 'hovered' */
+}
+
 
 @media (max-width:800px) {
 
