@@ -90,7 +90,7 @@ nav ul li a{
     font-weight: 600;
 }
 nav ul li a:hover{
-    color: #d8a88d;
+    color: #fef2eb;
 }
 
 nav .fa-solid{
@@ -255,7 +255,7 @@ padding-top:60px;
 
   /* Cambio de color al pasar el cursor sobre enlaces */
   .submenu li a:hover {
-    color: #fff;
+    color: #fffdf3ed;
   }
 
   .social p{
