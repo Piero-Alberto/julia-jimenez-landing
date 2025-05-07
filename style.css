@@ -65,7 +65,7 @@ hr {
 
 .wrapper{
     padding: 20px 60px;
-    background: #fff4ec;
+    background: #DFDFDF;
 }
 
 nav{
@@ -83,7 +83,7 @@ nav ul li{
 }
 
 nav ul li a{
-    color: #ba8e72;
+    color: #7d7a75;
     text-decoration: none;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -299,7 +299,7 @@ padding-top:60px;
       }
 
       .footer-menu > li > a {
-        color: white;
+        color: #625348;
         text-decoration: none;
         font-weight: bold;
         display: block;
@@ -315,7 +315,7 @@ padding-top:60px;
 
     /* Estilo para los enlaces del submenú */
 .submenu li a {
-    color: #ccc;
+    color:#625348;
     text-decoration: none;
     display: block;
     margin: 5px 0;
@@ -386,9 +386,18 @@ padding-bottom: 20px;
 
 .navidad-titulo{
   text-align: center;
-  margin-block: 40px;
+  margin-block: 80px;
 }
 
+.categoria-item{
+  padding-bottom: 50px;
+}
+
+.categoria-item h2{
+  padding-top:10px;
+  font-weight: 300;
+  font-size: 1.1rem;
+}
 
 @media (max-width:800px) {
 
